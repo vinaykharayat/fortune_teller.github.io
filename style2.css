@@ -77,7 +77,7 @@
 }
 
 img{
-    display: flex;
+    display: none;
     position: fixed;
     top: 40%;
     left: 40%;
