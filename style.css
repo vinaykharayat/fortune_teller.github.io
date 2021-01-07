@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+#container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#form{
+    color: aliceblue;
+    background-color: rgb(245, 222, 178, .5);
+    padding: 40px;
+    text-align: center;
+    height: 800px;
+    margin: auto;
+    width: 30%;
+}
+
+#form h1{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+#form h2{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20%;
+    color: greenyellow;
+}
+
+#mFortune{
+    margin-top: 20%;
+    color: darkred !important;
+}
+
+
+main{
+    height: 800px;
+    overflow: hidden;
+    background-image: url(https://media4.giphy.com/media/10TI5vPyELuuHu/giphy.gif);
+    background-size: 100% 100%;
+}
