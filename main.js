@@ -21,7 +21,7 @@ function saveQuestion(){
       }, 2000);
     
     
-    document.querySelector("#result h1").textContent = askFortune(Math.floor(Math.random() * 8));
+    document.querySelector("#resultText").textContent = askFortune(Math.floor(Math.random() * 8));
 }
 
 function askFortune(answerNumber) {
