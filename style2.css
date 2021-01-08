@@ -5,7 +5,7 @@
 
 #container {
     height: 100vh;
-    background-color: #f08080;
+    background: linear-gradient(145deg, #bde617, #e1ff1b);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -31,16 +31,25 @@
     border-radius: 10px;
     border: none;
     margin: 10px;
-    background: linear-gradient(145deg, #ff8989, #d87373);
-    box-shadow: 5px 5px 6px #cc6d6d, -5px -5px 6px #ff9393;
+    background: linear-gradient(145deg, #bde617, #e1ff1b);
+    box-shadow: 11px 11px 9px #8ba811, -11px -11px 9px #ffff22;
 }
 
 #container button:hover {
     padding: 10px;
     border-radius: 10px;
-    
-    background: #f08080;
-    box-shadow: inset 5px 5px 6px #cc6d6d, inset -5px -5px 6px #ff9393;
+    background: #d2ff19;
+    box-shadow: inset 11px 11px 9px #8ba811, inset -11px -11px 9px #ffff22;
+}
+
+#container #reset {
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 10px;
+    border: white 1px solid;
+    background: white;
+    color: linear-gradient(145deg, #bde617, #e1ff1b);
+    box-shadow: unset;
 }
 
 #nameTaker {
@@ -52,10 +61,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: linear-gradient(145deg, #ff8989, #d87373);
-    box-shadow: 5px 5px 6px #cc6d6d, -5px -5px 6px #ff9393;
+    background: linear-gradient(145deg, #bde617, #e1ff1b);
+    box-shadow: 11px 11px 9px #8ba811, -11px -11px 9px #ffff22;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 #questionTaker {
@@ -67,9 +76,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: linear-gradient(145deg, #ff8989, #d87373);
-    box-shadow: 5px 5px 6px #cc6d6d, -5px -5px 6px #ff9393;
+    background: linear-gradient(145deg, #bde617, #e1ff1b);
+    box-shadow: 11px 11px 9px #8ba811, -11px -11px 9px #ffff22;
     padding: 20px;
+    border-radius: 50px;
 }
 
 #result {
@@ -81,9 +91,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: linear-gradient(145deg, #ff8989, #d87373);
-    box-shadow: 5px 5px 6px #cc6d6d, -5px -5px 6px #ff9393;
+    background: linear-gradient(145deg, #bde617, #e1ff1b);
+    box-shadow: 11px 11px 9px #8ba811, -11px -11px 9px #ffff22;
     padding: 20px;
+    border-radius: 50px;
 }
 
 #reset {
