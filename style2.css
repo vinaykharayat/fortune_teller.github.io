@@ -38,7 +38,7 @@
 } */
 
 #container button:hover {
-    padding: 10px;
+    padding: 10px 40px;
     border-radius: 10px;
     background: #d2ff19;
     box-shadow: inset 11px 11px 9px #8ba811, inset -11px -11px 9px #ffff22;
